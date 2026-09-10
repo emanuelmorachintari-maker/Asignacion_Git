@@ -6,4 +6,12 @@ public:
 
 private:
     bool isBlack;
+
+public:
+    Torre()
+    {
+        fila = 1;
+        columna = 1;
+        isBlack = true;
+    }
 };
